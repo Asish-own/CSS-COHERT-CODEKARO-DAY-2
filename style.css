@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    border: 1.5px solid rgb(216, 211, 211);
+    border-radius: 25px;
+    width: 500px;
+    padding: 15px 15px;
+}
+.main_content{
+    position: relative;
+}
+.food_img{
+    width: 100%;
+    border-radius: 25px;   
+}
+.promo{
+    text-align: center;
+    background-color: rgb(145, 124, 133);
+    color: rgb(216, 206, 210);
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    padding: 2px 4px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.discount{
+    background-color: rgb(38, 112, 240);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 3px 8px;
+    width: fit-content;
+    bottom: 10px;
+
+}
+.delivery_time{
+    color: rgb(54, 54, 54);
+    background-color: rgb(247, 250, 250);
+    position: absolute;
+    padding: 6px 4px;
+    width: fit-content;
+    border-radius: 5px;
+    bottom: 10px;
+    right: 10px;
+}
+.food_desc{
+    color: rgb(110, 110, 110);
+}
+.footer{
+    margin: 1px 5px;
+    border-top: 1px solid rgb(232, 232, 232);
+    display: flex;
+}
+.delivery_img{
+    margin: 10px 10px;
+    width: 100px;
+    height: auto;
+}
+.text{
+    margin: 10px 10px;
+    color: rgb(218, 208, 208);
+}
+
+
+
+

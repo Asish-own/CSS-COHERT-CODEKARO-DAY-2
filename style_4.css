@@ -1,0 +1,36 @@
+body{
+    width: 800px;
+    margin: 10px 400px;
+    position: relative;  
+}
+.bg{
+    width: 800px;
+    height: 240px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.user{
+    position: absolute;
+    border: 4px solid white;
+    height: 200px;
+    border-radius: 100px;
+    bottom: -90px;
+    left: 38%;
+}
+.text{
+    margin: 25px;
+}
+h4{
+    position: absolute;
+    font-size: 40px;
+    bottom: -240px;
+    left: 35%;
+}
+.tag{
+    color: rgb(170, 166, 166);
+    position: absolute;
+    font-size: 28px;
+    bottom: -250px;
+    left: 30%;
+}
